@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cb3202177d934da4a5c18336960da21, type: 3}
   m_Name: Hugo
   m_EditorClassIdentifier: 
-  _name: 
-  _type: 
-  _description: 
-  _attack: 
-  _defense: 
-  _sprite: {fileID: 0}
+  _name: Hugo
+  _type: Offense
+  _description: Adds +10 points in attack. The side effect is you get +100 points
+    in schizophrenia
+  _attack: 100
+  _defense: 100
+  _sprite: {fileID: 21300000, guid: a19f6e0d177c246b78cc0c2b588ebfca, type: 3}

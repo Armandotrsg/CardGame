@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cb3202177d934da4a5c18336960da21, type: 3}
   m_Name: Heber
   m_EditorClassIdentifier: 
-  _name: 
-  _type: 
-  _description: 
-  _attack: 
-  _defense: 
+  _name: Heber
+  _type: Princess
+  _description: Immedaitely blacks out the enemy
+  _attack: 100
+  _defense: 100
   _sprite: {fileID: 0}
