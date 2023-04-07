@@ -27,6 +27,8 @@ public class CardLoader : MonoBehaviour
 
     [SerializeField]
     private Image _image;
+
+    private float _moveOnHover = 1f;
     void Start()
     {
         Assert.IsNotNull(_data, "LOS DATOS DEL PREFAB NO PUEDEN SER NULOS");
@@ -43,4 +45,13 @@ public class CardLoader : MonoBehaviour
     {
         
     }
+
+    void OnMouseEnter() {
+        transform.position = new Vector3(transform.position.x, transform.position.y + _moveOnHover, transform.position.z);
+    }
+
+    void OnMouseExit() {
+        transform.position = new Vector3(transform.position.x, transform.position.y - _moveOnHover, transform.position.z);
+    }
+
 }
