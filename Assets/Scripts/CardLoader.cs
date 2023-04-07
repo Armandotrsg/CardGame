@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Assertions;
 using TMPro;
+using UnityEngine.UI;
 
 public class CardLoader : MonoBehaviour
 {
@@ -24,8 +25,11 @@ public class CardLoader : MonoBehaviour
     [SerializeField]
     private TMP_Text _defense;
 
+    // [SerializeField]
+    // private SpriteRenderer _spriteRenderer;
+
     [SerializeField]
-    private SpriteRenderer _spriteRenderer;
+    private Image _image;
     void Start()
     {
         Assert.IsNotNull(_data, "LOS DATOS DEL PREFAB NO PUEDEN SER NULOS");
@@ -34,7 +38,8 @@ public class CardLoader : MonoBehaviour
         _description.text = _data._description;
         _attack.text = _data._attack;
         _defense.text = _data._defense;
-        _spriteRenderer.sprite = _data._sprite;
+        _image.sprite = _data._sprite;
+
     }
 
     // Update is called once per frame
