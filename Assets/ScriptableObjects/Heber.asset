@@ -17,4 +17,4 @@ MonoBehaviour:
   _description: Immedaitely blacks out the enemy
   _attack: 100
   _defense: 100
-  _sprite: {fileID: 0}
+  _sprite: {fileID: 21300000, guid: 19f85449148b5485cbf68dd72485a8f5, type: 3}
