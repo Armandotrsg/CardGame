@@ -25,9 +25,6 @@ public class CardLoader : MonoBehaviour
     [SerializeField]
     private TMP_Text _defense;
 
-    // [SerializeField]
-    // private SpriteRenderer _spriteRenderer;
-
     [SerializeField]
     private Image _image;
     void Start()
@@ -39,7 +36,6 @@ public class CardLoader : MonoBehaviour
         _attack.text = _data._attack;
         _defense.text = _data._defense;
         _image.sprite = _data._sprite;
-
     }
 
     // Update is called once per frame
