@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Ratata
   m_EditorClassIdentifier: 
   _name: Ratata
-  _type: Offense
+  _type: Normal
   _description: 'Es propenso a hincar los incisivos en cualquier cosa que se le ponga
     por delante. Si se ve alguno, seguramente haya cuarenta cerca.  '
   _attack: 40

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Jygglypuff
   m_EditorClassIdentifier: 
   _name: Jygglypuff
-  _type: Offense
+  _type: Hada
   _description: "Cuando le tiemblan sus redondos y adorables ojos, entona una melod\xEDa
     agradable y misteriosa con la que duerme a sus enemigos.  "
   _attack: 30

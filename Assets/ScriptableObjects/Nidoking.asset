@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Nidoking
   m_EditorClassIdentifier: 
   _name: Nidoking
-  _type: Offense
+  _type: Veneno/Tierra
   _description: "Una vez que se desboca, no hay quien lo pare. Solo se calma ante
     Nidoqueen, su compa\xF1era de toda la vida.  "
   _attack: 60

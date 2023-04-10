@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Charizard
   m_EditorClassIdentifier: 
   _name: Charizard
-  _type: Offense
+  _type: Fuego/Volador
   _description: 'Escupe un fuego tan caliente que funde las rocas. Causa incendios
     forestales sin querer.  '
   _attack: 50
