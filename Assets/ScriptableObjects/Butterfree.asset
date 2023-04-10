@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Butterfree
   m_EditorClassIdentifier: 
   _name: Butterfree
-  _type: Offense
+  _type: Bicho/Volador
   _description: "Aletea a gran velocidad para lanzar al aire sus escamas extremadamente
     t\xF3xicas.  "
   _attack: 30

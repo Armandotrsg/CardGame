@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Bulbasaur
   m_EditorClassIdentifier: 
   _name: Bulbasaur
-  _type: Offense
+  _type: Planta/Veneno
   _description: "Este Pok\xE9mon nace con una semilla en el lomo, que brota con el
     paso del tiempo.  "
   _attack: 30

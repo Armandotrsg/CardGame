@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Pikachu
   m_EditorClassIdentifier: 
   _name: Pikachu
-  _type: Offense
+  _type: Electrico
   _description: "Cuando se enfada, este Pok\xE9mon descarga la energ\xEDa que almacena
     en el interior de las bolsas de las mejillas.  "
   _attack: 40

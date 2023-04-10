@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Squirtle
   m_EditorClassIdentifier: 
   _name: Squirtle
-  _type: Offense
+  _type: Agua
   _description: "Cuando retrae su largo cuello en el caparaz\xF3n, dispara agua a
     una presi\xF3n incre\xEDble.  "
   _attack: 30

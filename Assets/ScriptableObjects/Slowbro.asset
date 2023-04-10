@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Slowbro
   m_EditorClassIdentifier: 
   _name: Slowbro
-  _type: Princess
+  _type: Agua/Psiquico
   _description: "Incre\xEDblemente lento y torpe. Tarda cinco segundos en sentir
     dolor si lo atacan.  "
   _attack: 40

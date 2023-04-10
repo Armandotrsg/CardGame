@@ -14,8 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Pidgeot
   _type: Offense
-  _description: "Este Pok\xE9mon vuela a una velocidad de 2 mach en busca de presas.
-    Sus grandes garras son armas muy peligrosas.  "
+  _description: Normal/Volador
   _attack: 50
   _defense: 50
   _sprite: {fileID: 21300000, guid: cf27afdbb655d4bc1942cf97c53b8ac4, type: 3}

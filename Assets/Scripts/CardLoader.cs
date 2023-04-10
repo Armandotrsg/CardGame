@@ -8,6 +8,9 @@ using UnityEngine.UI;
 public class CardLoader : MonoBehaviour
 {
     [SerializeField]
+    private GUIManager _guiManager;
+
+    [SerializeField]
     private CardScriptable _data;
 
     [SerializeField]
@@ -48,6 +51,15 @@ public class CardLoader : MonoBehaviour
 
     void OnMouseEnter() {
         transform.position = new Vector3(transform.position.x, transform.position.y + _moveOnHover, transform.position.z);
+    }
+
+    void OnMouseDown() {
+        _guiManager._name.text = _data._name;
+        _guiManager._type.text = _data._type;
+        _guiManager._description.text = _data._description;
+        _guiManager._attack.text = _data._attack;
+        _guiManager._defense.text = _data._defense;
+
     }
 
     void OnMouseExit() {
