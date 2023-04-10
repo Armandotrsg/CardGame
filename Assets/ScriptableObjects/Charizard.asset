@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7cb3202177d934da4a5c18336960da21, type: 3}
-  m_Name: Hugo
+  m_Name: Charizard
   m_EditorClassIdentifier: 
-  _name: Hugo
+  _name: Charizard
   _type: Offense
   _description: Adds +10 points in attack. The side effect is you get +100 points
     in schizophrenia
