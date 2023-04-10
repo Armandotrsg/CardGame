@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Squirtle
   _type: Offense
-  _description: Adds +10 points in attack. The side effect is you get +100 points
-    in schizophrenia
-  _attack: 100
-  _defense: 100
-  _sprite: {fileID: 21300000, guid: a19f6e0d177c246b78cc0c2b588ebfca, type: 3}
+  _description: "Cuando retrae su largo cuello en el caparaz\xF3n, dispara agua a
+    una presi\xF3n incre\xEDble.  "
+  _attack: 30
+  _defense: 40
+  _sprite: {fileID: 21300000, guid: a37c4f6ef0e364922bd7ea42eb29e215, type: 3}

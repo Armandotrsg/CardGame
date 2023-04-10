@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Slowbro
   _type: Princess
-  _description: Immedaitely blacks out the enemy
-  _attack: 100
-  _defense: 100
-  _sprite: {fileID: 21300000, guid: 19f85449148b5485cbf68dd72485a8f5, type: 3}
+  _description: "Incre\xEDblemente lento y torpe. Tarda cinco segundos en sentir
+    dolor si lo atacan.  "
+  _attack: 40
+  _defense: 40
+  _sprite: {fileID: 21300000, guid: 1a054f643a49d47d2a911a3cc88ae63e, type: 3}

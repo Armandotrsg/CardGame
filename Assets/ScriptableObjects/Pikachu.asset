@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Pikachu
   _type: Offense
-  _description: Immediately win the game
-  _attack: 100
-  _defense: 100
-  _sprite: {fileID: 21300000, guid: e37b2202339eb4f3eb5f439f21861769, type: 3}
+  _description: "Cuando se enfada, este Pok\xE9mon descarga la energ\xEDa que almacena
+    en el interior de las bolsas de las mejillas.  "
+  _attack: 40
+  _defense: 30
+  _sprite: {fileID: 21300000, guid: 74b73553d7d3f402bb5d6e91f0b5e8ee, type: 3}

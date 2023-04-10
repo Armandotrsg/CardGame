@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Nidoking
   _type: Offense
-  _description: Adds +10 points in attack. The side effect is you get +100 points
-    in schizophrenia
-  _attack: 100
-  _defense: 100
-  _sprite: {fileID: 21300000, guid: a19f6e0d177c246b78cc0c2b588ebfca, type: 3}
+  _description: "Una vez que se desboca, no hay quien lo pare. Solo se calma ante
+    Nidoqueen, su compa\xF1era de toda la vida.  "
+  _attack: 60
+  _defense: 50
+  _sprite: {fileID: 21300000, guid: 8927fe6713334481983578fcadffe2d1, type: 3}

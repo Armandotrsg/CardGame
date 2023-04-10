@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Bulbasaur
   _type: Offense
-  _description: Adds +10 points in attack. The side effect is you get +100 points
-    in schizophrenia
-  _attack: 100
-  _defense: 100
-  _sprite: {fileID: 21300000, guid: a19f6e0d177c246b78cc0c2b588ebfca, type: 3}
+  _description: "Este Pok\xE9mon nace con una semilla en el lomo, que brota con el
+    paso del tiempo.  "
+  _attack: 30
+  _defense: 30
+  _sprite: {fileID: 21300000, guid: 611ed42a9d9514f38a80f4318be135dc, type: 3}

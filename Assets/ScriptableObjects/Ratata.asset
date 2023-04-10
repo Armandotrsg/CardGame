@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Ratata
   _type: Offense
-  _description: Adds +10 points in attack. The side effect is you get +100 points
-    in schizophrenia
-  _attack: 100
-  _defense: 100
-  _sprite: {fileID: 21300000, guid: a19f6e0d177c246b78cc0c2b588ebfca, type: 3}
+  _description: 'Es propenso a hincar los incisivos en cualquier cosa que se le ponga
+    por delante. Si se ve alguno, seguramente haya cuarenta cerca.  '
+  _attack: 40
+  _defense: 30
+  _sprite: {fileID: 21300000, guid: 3dffe95b532a743afaa72a07b1438319, type: 3}
