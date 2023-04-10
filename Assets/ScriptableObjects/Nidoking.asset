@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cb3202177d934da4a5c18336960da21, type: 3}
+  m_Name: Nidoking
+  m_EditorClassIdentifier: 
+  _name: Nidoking
+  _type: Offense
+  _description: "Una vez que se desboca, no hay quien lo pare. Solo se calma ante
+    Nidoqueen, su compa\xF1era de toda la vida.  "
+  _attack: 60
+  _defense: 50
+  _sprite: {fileID: 21300000, guid: 8927fe6713334481983578fcadffe2d1, type: 3}
