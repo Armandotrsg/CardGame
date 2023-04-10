@@ -25,11 +25,10 @@ public class CardLoader : MonoBehaviour
     [SerializeField]
     private TMP_Text _defense;
 
-    // [SerializeField]
-    // private SpriteRenderer _spriteRenderer;
-
     [SerializeField]
     private Image _image;
+
+    private float _moveOnHover = 1f;
     void Start()
     {
         Assert.IsNotNull(_data, "LOS DATOS DEL PREFAB NO PUEDEN SER NULOS");
@@ -39,7 +38,6 @@ public class CardLoader : MonoBehaviour
         _attack.text = _data._attack;
         _defense.text = _data._defense;
         _image.sprite = _data._sprite;
-
     }
 
     // Update is called once per frame
@@ -47,4 +45,13 @@ public class CardLoader : MonoBehaviour
     {
         
     }
+
+    void OnMouseEnter() {
+        transform.position = new Vector3(transform.position.x, transform.position.y + _moveOnHover, transform.position.z);
+    }
+
+    void OnMouseExit() {
+        transform.position = new Vector3(transform.position.x, transform.position.y - _moveOnHover, transform.position.z);
+    }
+
 }
