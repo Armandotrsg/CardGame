@@ -50,7 +50,6 @@ public class CardLoader : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-    
     }
 
     void OnMouseEnter() {
@@ -73,5 +72,15 @@ public class CardLoader : MonoBehaviour
     {
         int randomIndex = Random.Range(0, cards.Count);
         return cards[randomIndex];
+    }
+
+    public void changeSO() {
+        _currentCard = GetRandomCard(_dataList);
+        _name.text = _currentCard._name.ToUpper();
+        _type.text = string.Format("[{0}]", _currentCard._type.ToUpper());
+        _description.text = _currentCard._description;
+        _attack.text = _currentCard._attack;
+        _defense.text = _currentCard._defense;
+        _image.sprite = _currentCard._sprite;
     }
 }
