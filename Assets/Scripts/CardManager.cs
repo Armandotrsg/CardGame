@@ -6,8 +6,9 @@ public class CardManager : MonoBehaviour
 {
     //List of all children Cards
     private List<CardLoader> cards = new List<CardLoader>();
+    public List<CardScriptable> cardScriptables;
 
-    void Start()
+    void Awake()
     {
         //Get all children Cards
         foreach (Transform child in transform)
@@ -16,15 +17,23 @@ public class CardManager : MonoBehaviour
         }
     }
 
-    public void buttonClick()
+    void Start()
     {
+        //Set random cards
+        setRandomCards();
+    }
+
+    public void setRandomCards()
+    {
+        //Create a temporary list of all cards
+        List<CardScriptable> temp = new List<CardScriptable>(cardScriptables);
         //Change the cards' scriptable object
         foreach (CardLoader card in cards)
         {
-            card.changeSO();
+            int index = Random.Range(0, temp.Count);
+            card.setSO(temp[index]);
+            temp.RemoveAt(index);
         }
     }
-
-    
 
 }

@@ -38,13 +38,7 @@ public class CardLoader : MonoBehaviour
     void Start()
     {
         Assert.IsNotNull(_dataList, "LA LISTA DE DATOS NO PUEDE SER NULA");
-        _currentCard = GetRandomCard(_dataList);
-        _name.text = _currentCard._name.ToUpper();
-        _type.text = string.Format("[{0}]", _currentCard._type.ToUpper());
-        _description.text = _currentCard._description;
-        _attack.text = _currentCard._attack;
-        _defense.text = _currentCard._defense;
-        _image.sprite = _currentCard._sprite;
+        print(_guiManager._name.text);
     }
 
     // Update is called once per frame
@@ -74,13 +68,13 @@ public class CardLoader : MonoBehaviour
         return cards[randomIndex];
     }
 
-    public void changeSO() {
-        _currentCard = GetRandomCard(_dataList);
-        _name.text = _currentCard._name.ToUpper();
-        _type.text = string.Format("[{0}]", _currentCard._type.ToUpper());
-        _description.text = _currentCard._description;
-        _attack.text = _currentCard._attack;
-        _defense.text = _currentCard._defense;
-        _image.sprite = _currentCard._sprite;
+    public void setSO(CardScriptable newCard) {
+        _currentCard = newCard;
+        _name.text = newCard._name.ToUpper();
+        _type.text = string.Format("[{0}]", newCard._type.ToUpper());
+        _description.text = newCard._description;
+        _attack.text = newCard._attack;
+        _defense.text = newCard._defense;
+        _image.sprite = newCard._sprite;
     }
 }
