@@ -11,9 +11,6 @@ public class CardLoader : MonoBehaviour
     private GUIManager _guiManager;
 
     [SerializeField]
-    private List<CardScriptable> _dataList;
-
-    [SerializeField]
     private TMP_Text _name;
 
     [SerializeField]
@@ -35,17 +32,6 @@ public class CardLoader : MonoBehaviour
 
     private CardScriptable _currentCard;
 
-    void Start()
-    {
-        Assert.IsNotNull(_dataList, "LA LISTA DE DATOS NO PUEDE SER NULA");
-        print(_guiManager._name.text);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-    }
-
     void OnMouseEnter() {
         transform.position = new Vector3(transform.position.x, transform.position.y + _moveOnHover, transform.position.z);
     }
@@ -60,12 +46,6 @@ public class CardLoader : MonoBehaviour
 
     void OnMouseExit() {
         transform.position = new Vector3(transform.position.x, transform.position.y - _moveOnHover, transform.position.z);
-    }
-
-    private CardScriptable GetRandomCard(List<CardScriptable> cards)
-    {
-        int randomIndex = Random.Range(0, cards.Count);
-        return cards[randomIndex];
     }
 
     public void setSO(CardScriptable newCard) {
