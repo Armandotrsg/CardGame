@@ -30,7 +30,7 @@ public class CardLoader : MonoBehaviour
 
     private float _moveOnHover = 1f;
 
-    private CardScriptable _currentCard;
+    public CardScriptable _currentCard;
 
     void OnMouseEnter() {
         transform.position = new Vector3(transform.position.x, transform.position.y + _moveOnHover, transform.position.z);

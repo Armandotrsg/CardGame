@@ -27,6 +27,16 @@ public class CardManager : MonoBehaviour
     {
         //Create a temporary list of all cards
         List<CardScriptable> temp = new List<CardScriptable>(cardScriptables);
+
+        //Remove all cards that are already in the game
+        foreach (CardLoader card in cards)
+        {
+            if (card._currentCard != null)
+            {
+                temp.Remove(card._currentCard);
+            }
+        }
+
         //Change the cards' scriptable object
         foreach (CardLoader card in cards)
         {
