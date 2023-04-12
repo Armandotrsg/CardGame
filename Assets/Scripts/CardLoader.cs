@@ -11,9 +11,6 @@ public class CardLoader : MonoBehaviour
     private GUIManager _guiManager;
 
     [SerializeField]
-    private List<CardScriptable> _dataList;
-
-    [SerializeField]
     private TMP_Text _name;
 
     [SerializeField]
@@ -33,25 +30,7 @@ public class CardLoader : MonoBehaviour
 
     private float _moveOnHover = 1f;
 
-    private CardScriptable _currentCard;
-
-    void Start()
-    {
-        Assert.IsNotNull(_dataList, "LA LISTA DE DATOS NO PUEDE SER NULA");
-        _currentCard = GetRandomCard(_dataList);
-        _name.text = _currentCard._name.ToUpper();
-        _type.text = string.Format("[{0}]", _currentCard._type.ToUpper());
-        _description.text = _currentCard._description;
-        _attack.text = _currentCard._attack;
-        _defense.text = _currentCard._defense;
-        _image.sprite = _currentCard._sprite;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-    
-    }
+    public CardScriptable _currentCard;
 
     void OnMouseEnter() {
         transform.position = new Vector3(transform.position.x, transform.position.y + _moveOnHover, transform.position.z);
@@ -69,9 +48,13 @@ public class CardLoader : MonoBehaviour
         transform.position = new Vector3(transform.position.x, transform.position.y - _moveOnHover, transform.position.z);
     }
 
-    private CardScriptable GetRandomCard(List<CardScriptable> cards)
-    {
-        int randomIndex = Random.Range(0, cards.Count);
-        return cards[randomIndex];
+    public void setSO(CardScriptable newCard) {
+        _currentCard = newCard;
+        _name.text = newCard._name.ToUpper();
+        _type.text = string.Format("[{0}]", newCard._type.ToUpper());
+        _description.text = newCard._description;
+        _attack.text = newCard._attack;
+        _defense.text = newCard._defense;
+        _image.sprite = newCard._sprite;
     }
 }
